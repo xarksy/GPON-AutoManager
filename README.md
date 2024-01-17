@@ -23,7 +23,7 @@ This script automates the management and configuration tasks related to GPON (Gi
 - **show_and_verify_configuration**: Retrieve and display the configuration of a specified ONU.
 
 - **checking_onu_id_olt**: Checking configured onu in OLT.
-- 
+
 ## Prerequisites
 
 - Python 3.x
