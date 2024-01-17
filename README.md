@@ -6,22 +6,24 @@ This script automates the management and configuration tasks related to GPON (Gi
 
 ## Features
 
+- **telnet_connection**: Establish a Telnet connection.
+
+- **execute_command**: Execute a command on the Telnet connection.
+
 - **sisir_uncfg**: Retrieve information about unconfigured ONUs.
+
+- **extract_and_print_onu_info**: Extract and print information about unconfigured ONUs.
 
 - **autoconfig**: Automatically configure an ONU if not provisioned.
 
-- **resetConfig**: Reset the configuration of a specified ONU.
+- **configure_new_onu**: Configure a new ONU.
 
-- **saveConfig**: Save the configuration of a specified ONU.
+- **configure_service**: Configure service parameters for a new ONU.
 
-- **cekOnuId**: Check for available ONU IDs.
+- **show_and_verify_configuration**: Retrieve and display the configuration of a specified ONU.
 
-- **cariOnunya**: Search and retrieve information about configured ONUs.
-
-- **cekSN**: Check information about an ONU using its Serial Number (SN).
-
-- **cekInterfaceOnu**: Retrieve and display the configuration of a specified ONU.
-
+- **checking_onu_id_olt**: Checking configured onu in OLT.
+- 
 ## Prerequisites
 
 - Python 3.x
